@@ -18,7 +18,7 @@ namespace WebApplication2.Controllers
             ViewBag.Message = "Your application description page.";
             var color = ConsoleColor.Red;
             Console.BackgroundColor= color;
-            string s;
+            string s=String.Empty;
             return View();
         }
 
